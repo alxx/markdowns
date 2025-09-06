@@ -2,6 +2,7 @@
 
 Here is a graph:
 
+```mermaid
 graph TD
     subgraph "User Device"
         Browser
@@ -23,3 +24,11 @@ graph TD
     WebApp -- Reads/Writes --> DB
     WebApp -- API Call --> PaymentGateway
     WebApp -- API Call --> ShippingService
+``` 
+
+Simple Mermaid chart for reference:
+
+```mermaid
+graph LR
+  A --> B
+```
