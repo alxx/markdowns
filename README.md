@@ -25,10 +25,3 @@ graph TD
     WebApp -- API Call --> PaymentGateway
     WebApp -- API Call --> ShippingService
 ``` 
-
-Simple Mermaid chart for reference:
-
-```mermaid
-graph LR
-  A --> B
-```
